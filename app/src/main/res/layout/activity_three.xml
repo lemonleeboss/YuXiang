@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeActivity">
+
+
+    <TextView
+        android:layout_above="@+id/rg3"
+        android:background="#E91E63"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="第三个页面"
+        android:textSize="35sp"
+        />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/rg3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <RadioButton
+                android:id="@+id/btn3_1"
+                android:textAlignment="center"
+                android:button="@null"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/main"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/btn3_2"
+                android:textAlignment="center"
+                android:button="@null"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/discover"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/btn3_3"
+                android:textAlignment="center"
+                android:button="@null"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/inform_press"
+                android:paddingTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RadioButton
+                android:id="@+id/btn3_4"
+                android:textAlignment="center"
+                android:button="@null"
+                android:layout_weight="1"
+                android:paddingTop="18dp"
+                android:drawableTop="@mipmap/mine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RadioGroup>
+    </RelativeLayout>

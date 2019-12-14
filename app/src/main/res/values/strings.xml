@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YuXiang</string>
+    <string-array name="indicator_title">
+        <item>今日推荐</item>
+        <item>早餐达人</item>
+        <item>新手不翻车</item>
+        <item>家常菜能手</item>
+        <item>懒人一锅出</item>
+        <item>主食控</item>
+        <item>爱吃肉肉</item>
+        <item>甜食至上</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

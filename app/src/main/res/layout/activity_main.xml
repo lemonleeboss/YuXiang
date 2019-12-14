@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/search"
+            android:focusable="false"
+            android:orientation="vertical"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="100dp"
+            android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/et_search1"
+            android:drawableLeft="@mipmap/search"
+            android:paddingLeft="10dp"
+            android:hint=" 搜索食材、菜谱"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_edit_text_bg"/>
+
+            <net.lucode.hackware.magicindicator.MagicIndicator
+                android:id="@+id/main_indicator"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/content_pager"
+                android:overScrollMode="never"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </androidx.viewpager.widget.ViewPager>
+
+
+        </LinearLayout>
+
+
+
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn1_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingTop="20dp"
+                android:drawableTop="@mipmap/main_press" />
+
+            <RadioButton
+                android:id="@+id/btn1_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:button="@null"
+                android:drawableTop="@mipmap/discover"
+                />
+
+            <RadioButton
+                android:id="@+id/btn1_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingTop="18dp"
+                android:drawableTop="@mipmap/inform"
+                />
+
+            <RadioButton
+                android:id="@+id/btn1_4"
+                android:paddingTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@mipmap/mine"
+                />
+        </RadioGroup>
+
+    </RelativeLayout>
+

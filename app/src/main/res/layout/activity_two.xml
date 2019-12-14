@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rg2"
+            android:background="#03A9F4"
+            android:text="第二个页面"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn2_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@mipmap/main"
+                android:paddingTop="20dp"
+                 />
+
+            <RadioButton
+                android:id="@+id/btn2_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingTop="20dp"
+                android:drawableTop="@mipmap/discover_press"
+                 />
+
+            <RadioButton
+                android:id="@+id/btn2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingTop="18dp"
+                android:drawableTop="@mipmap/inform"/>
+
+            <RadioButton
+                android:id="@+id/btn2_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@mipmap/mine"
+                android:paddingTop="18dp"
+                />
+        </RadioGroup>
+    </RelativeLayout>
