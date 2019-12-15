@@ -10,8 +10,13 @@
 ##### g .ViewPagerindicator框架,用于各种基于 AndroidSupportLibrary 中 ViewPager 的界面导航。主要特点：使用简单、样式全、易扩展  
 
 
-##### ![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_a.gif)这个是主要界面的动态图     
-##### ![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_b.gif)这个是首页的动态图    
-##### ![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_c.gif)这个是发现好菜页的动态图    
-##### ![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_d.gif)这个是注册登陆的动态图    
+##### 这个是主要界面的动态图  
+![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_a.gif)    
+##### 这个是首页的动态图!  
+[Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_b.gif)     
+##### 这个是发现好菜页的动态图  
+![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_c.gif)      
+##### 这个是注册登陆的动态图  
+![Image text](https://raw.githubusercontent.com/lemonleeboss/YuXiang/master/app/src/main/res/mipmap-mdpi/git_d.gif)  
+    
  
